@@ -4,7 +4,6 @@ class Field:
     def __init__(self, value):
         self.value = value
         
-    # Перетворюємо значення поля на рядок та повертаємо його
     def __str__(self):
         return str(self.value)
 
